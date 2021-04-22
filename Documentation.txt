@@ -1,0 +1,40 @@
+#Iniciando Projeto
+- yarn create react-app covid-pwa
+
+#Dependences
+- npm i styled-components
+
+#Passando caminho relativo com jsconfig
+- criando arquivo jsconfig.json
+- adicionando codigo (
+
+    {
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "src",
+    "jsx": "react",
+    "paths": {
+      "components/*": [
+        "./components/*"
+      ],
+      "containers/*": [
+        "./containers/*"
+      ],
+      "assets/*": [
+        "./assets/*"
+      ],
+      "resources/*": [
+        "./resources/*"
+      ],
+      "commons/*": [
+        "./commons/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
+
+)
