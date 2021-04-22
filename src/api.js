@@ -6,7 +6,7 @@ const headers = {
     cache: 'default'
 }
 
-//Retorna os dados setando apenas o pais
+//Retorna os dados da api path setando apenas o pais(country)
 function getCountry(country) {
     return fetch(`${path}/${country}`, headers)
         .then((response) => response.json())
