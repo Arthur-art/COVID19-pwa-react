@@ -1,6 +1,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { Grid, Skeleton } from './../../../components/index'
+import Card from './Card'
 
 function Board({ data }) {
     const { cases, todayDeaths, recovered, deaths, todayCases } = data;

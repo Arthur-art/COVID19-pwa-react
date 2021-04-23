@@ -4,8 +4,6 @@ import App from './App'
 
 
 ReactDOM.render(
-    <Fragment>
-        <App />
-    </Fragment>,
+    <App />,
     document.getElementById("root")
 );
