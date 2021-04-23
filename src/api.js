@@ -7,11 +7,7 @@ const headers = {
 }
 
 //Retorna os dados da api path setando apenas o pais(country)
-function getCountry(country) {
+export const getCountry = (country) => {
     return fetch(`${path}/${country}`, headers)
         .then((response) => response.json())
-}
-
-export default {
-    getCountry
 }

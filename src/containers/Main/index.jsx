@@ -1,5 +1,5 @@
-import React, { memo, useState, useCallback, useEffect, Fragment } from 'react'
-import Api from '../../api'
+import React, { memo, useState, useCallback, useEffect } from 'react'
+import { getCountry } from '../../api'
 import Board from './components/Board'
 import Panel from './components/Panel'
 import { ContainerStyled } from './style'
@@ -12,7 +12,7 @@ function Main() {
 
     //pegando os dados da function exportada da api
     const getCovidData = useCallback((country) => {
-        Api.getCountry(country).then((data) => {
+        getCountry(country).then((data) => {
             setData(data)
             console.log(data)
         })

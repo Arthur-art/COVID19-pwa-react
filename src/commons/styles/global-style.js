@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import CovidImg from '../../assets/images/covid.jpg'
 
 const globalStyle = createGlobalStyle`
   * {
@@ -18,7 +17,6 @@ const globalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
   }
-
 
   .mb-2 {
     margin-bottom: 16px;
