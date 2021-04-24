@@ -4,6 +4,7 @@ const globalStyle = createGlobalStyle`
   * {
     outline: none;
     box-sizing: border-box;
+    text-align: center;
   }
 
   body {

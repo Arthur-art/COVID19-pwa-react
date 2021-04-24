@@ -2,6 +2,24 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background: #161b22;
+    background: white;
 }
 
+
+.portfolio a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.api{
+    color: #3f51b5;
+}
+.api a{
+    color: #3f51b5;
+    font-size: 1.2rem;
+}

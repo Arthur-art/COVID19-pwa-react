@@ -50,9 +50,8 @@ function Panel({ updateAt, onChange, data, country }) {
     return (
         <Card>
             <CardPanelContentStyled>
-                <div>
-                    <Typography variant="h5" component="span" color="primary">COVID19</Typography>
-                    <Typography variant="h6" component="span" color="primary">Painel Coronavírus</Typography>
+                <div className="container">
+                    <Typography variant="h5" component="span" color="primary">Painel Coronavírus</Typography>
                     <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
                     <div className="pt-2">
                         <Select onChange={onChange} value={country}>
@@ -60,6 +59,11 @@ function Panel({ updateAt, onChange, data, country }) {
                         </Select>
                     </div>
                 </div>
+                <div className="api">
+                    <h3>Dados fornecidos por uma Api pública:</h3>
+                    <a href="https://github.com/javieraviles/covidAPI">https://github.com/javieraviles/covidAPI</a>
+                </div>
+
                 {navigatorHasShare ? renderShareButton : renderCopyButton}
             </CardPanelContentStyled>
         </Card>
