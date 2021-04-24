@@ -14,9 +14,11 @@ function Board({ data }) {
             </Grid>
             <Grid item xs={12} md={3}>
                 <Card value={getValue(todayDeaths)} label="Óbitos hoje" color="#F7B829" />
+                <p className="obs">*Obs: Dados frequentemente mutáveis</p>
             </Grid>
             <Grid item xs={12} md={3}>
                 <Card value={getValue(todayCases)} label="Casos hoje" color="#000" />
+                <p className="obs">*Obs: Dados frequentemente mutáveis</p>
             </Grid>
             <Grid item xs={12} md={3}>
                 <Card value={getValue(deaths)} label="Total de mortos" color="#E95078" />
