@@ -33,7 +33,7 @@ const COUNTRIES = [
         flag: ItalyFlag
     },
     {
-        label: 'Arabia',
+        label: 'Arábia Saudita',
         value: 'saudi arabia',
         flag: ArabiaFlag
     },

@@ -11,7 +11,7 @@ ReactDOM.render(
             <a href="https://arthur-art-portfolio.vercel.app/">Developed by Arthur Teixeira</a>
         </div>
         <div className="api">
-            <h3>Dados fornecidos por uma Api pública:</h3>
+            <h3>Dados fornecidos por uma API pública:</h3>
             <a href="https://github.com/javieraviles/covidAPI">https://github.com/javieraviles/covidAPI</a>
         </div>
     </Fragment>,
