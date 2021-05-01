@@ -1,21 +1,21 @@
-#Iniciando Projeto
+# Iniciando Projeto
 - yarn create react-app covid-pwa
 
 (/*
-#Dependencies
+# Dependencies
 - npm i styled-components
 - npm i --save-dev customize-cra
 - npm i --save-dev react-app-rewired
 
-#Criacao dos components
+# Criacao dos components
 - npm install @material-ui/core
 
-#Styles
+# Styles
 - npm i styled-components
 
 */)
 
-#Passando caminho relativo das pastas com jsconfig
+# Passando caminho relativo das pastas com jsconfig
 - criando arquivo jsconfig.json
 - adicionando codigo (
 
@@ -51,7 +51,7 @@
 )
 
 
-##Criando arquivo config-overrides.js para sobreescrever a configuracao do react
+# Criando arquivo config-overrides.js para sobreescrever a configuracao do react
 - (
     const { useBabelRc, override } = require('customize-cra')
 module.exports = override(useBabelRc())
